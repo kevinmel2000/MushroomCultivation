@@ -40,20 +40,6 @@ public class FragmentBaglog extends Fragment {
     }
 
     public void cvClicked(View v){
-        if(v.getId() == R.id.cv_baglog_alatbahan){
-            if(tvAlat.getVisibility() == TextView.GONE){
-                tvAlat.setVisibility(TextView.VISIBLE);
-            }else{
-                tvAlat.setVisibility(TextView.GONE);
-            }
-        }
 
-        if(v.getId() == R.id.cv_baglog_procedure){
-            if(tvCara.getVisibility() == TextView.GONE){
-                tvCara.setVisibility(TextView.VISIBLE);
-            }else{
-                tvCara.setVisibility(TextView.GONE);
-            }
-        }
     }
 }

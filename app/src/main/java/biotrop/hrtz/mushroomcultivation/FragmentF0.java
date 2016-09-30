@@ -44,29 +44,7 @@ public class FragmentF0 extends Fragment {
     }
 
     public void cvClicked(View v){
-        if(v.getId() == R.id.cv_f0_alatbahan){
-            if(tvAlat.getVisibility() == TextView.GONE){
-                tvAlat.setVisibility(TextView.VISIBLE);
-            }else{
-                tvAlat.setVisibility(TextView.GONE);
-            }
-        }
 
-        if(v.getId() == R.id.cv_f0_isolation){
-            if(tvIsolasi.getVisibility() == TextView.GONE){
-                tvIsolasi.setVisibility(TextView.VISIBLE);
-            }else{
-                tvIsolasi.setVisibility(TextView.GONE);
-            }
-        }
-
-        if(v.getId() == R.id.cv_f0_procedure){
-            if(tvCara.getVisibility() == TextView.GONE){
-                tvCara.setVisibility(TextView.VISIBLE);
-            }else{
-                tvCara.setVisibility(TextView.GONE);
-            }
-        }
     }
 
 

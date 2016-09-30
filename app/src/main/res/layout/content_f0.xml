@@ -23,9 +23,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
-               android:id="@+id/cv_f0_alatbahan"
-                style="@style/CardStyle">
+
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -48,11 +46,9 @@
                         android:text="@string/f0_tool"
                         style="@style/TextContent1"/>
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/cv_f0_procedure"
-                style="@style/CardStyle">
+
+
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -115,10 +111,7 @@
 
                     </HorizontalScrollView>
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/cv_f0_isolation"
-                style="@style/CardStyle">
+
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -174,7 +167,7 @@
 
                     </HorizontalScrollView>
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+
 
         </LinearLayout>
     </ScrollView>
