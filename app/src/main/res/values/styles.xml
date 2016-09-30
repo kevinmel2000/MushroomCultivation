@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CardStyle" parent="CardView">
+        <item name="android:layout_gravity">center|right</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardMaxElevation">0dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:onClick">cvClicked</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="ChapterHeading">
+        <item name="android:gravity">center|right</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="Heading1" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:gravity">center|left</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@color/colorRowFirst</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="HeadingImage1">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@color/colorRowFirst</item>
+        <item name="android:padding">9dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="TextContent1">
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@color/colorRowFirst</item>
+        <item name="android:padding">5dp</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Heading2" parent="@style/Heading1">
+        <item name="android:background">@color/colorRowSecond</item>
+    </style>
+    <style name="HeadingImage2" parent="@style/HeadingImage1">
+        <item name="android:background">@color/colorRowSecond</item>
+    </style>
+    <style name="TextContent2" parent="@style/TextContent1">
+        <item name="android:background">@color/colorRowSecond</item>
+    </style>
+
+    <style name="Heading3" parent="@style/Heading1">
+        <item name="android:background">@color/colorRowThird</item>
+    </style>
+    <style name="HeadingImage3" parent="@style/HeadingImage1">
+        <item name="android:background">@color/colorRowThird</item>
+    </style>
+    <style name="TextContent3" parent="@style/TextContent1">
+        <item name="android:background">@color/colorRowThird</item>
+    </style>
+
+    <style name="GalleryItem">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:onClick">galleryClicked</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+</resources>

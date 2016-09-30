@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_f0"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/f0_title" />
+        <item
+            android:id="@+id/nav_f1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/f1_title" />
+        <item
+            android:id="@+id/nav_f2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/f2_title" />
+        <item
+            android:id="@+id/nav_baglog"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/baglog_title" />
+        <item
+            android:id="@+id/nav_baglog_treatment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/baglog_treatment_title" />
+        <item
+            android:id="@+id/nav_harvest"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/harvest_title" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

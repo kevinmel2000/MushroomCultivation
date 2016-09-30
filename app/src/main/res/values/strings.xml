@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">Budidaya Jamur Tiram</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="f0_title">Biakan Murni (F0) PDA</string>
+    <string name="f0_tv_tool_title">Alat dan Bahan</string>
+  <string name="f0_tool">
+    <![CDATA[
+    <b>Alat: </b><br/>
+    Pisau scapel<br/>
+    Pinset/sendok spatula<br/>
+    Gelas ukur 500ml<br/>
+    Labu Erlenmeyer 500ml<br/>
+    Cawan petri<br/>
+    Neraca<br/>
+    Baker glass<br/>
+    Saringan<br/>
+    Masker<br/>
+    <br/>
+    <b>Bahan: </b><br/>
+
+    Kentang - 200 g<br/>
+    Dekstrosa/gula pasir - 20 g<br/>
+    Agar agar - 7g<br/>
+    Air Aquades - 1000ml<br/>
+
+    ]]>
+  </string>
+    <string name="f0_procedure_title">Langkah Kerja: </string>
+
+  <string name="f0_procedure">
+    <![CDATA[
+    <ol>
+      <li>Kentang dipotong dadu dan di cuci bersih</li>
+      <li>Kentang ditimbang sebanyak 200 g untuk pembuatan media 1 Liter</li>
+      <li>Kentang direbus dengan air aquades 1000ml </li>
+      <li>Air rebusan kentang kemudian di filter dan dituangkan kedalam erlenmeyer 1000ml</li>
+      <li>Tambahkan Dekstrosa /gula pasir dan agar- agar pada air rebusan kentang</li>
+      <li>Kemudian di sterilisasi kedalam autoklaf</li>
+      <li>Tuangkan media yang sudah disterilkan pada cawan petri / tabung reaksi </li>
+      <li>Lakukan isolasi cendawan jamur pada media yang sudah disiapkan</li>
+      <li>Isolasi dilakukan pada alat laminar air flow cabinet</li>
+    </ol>
+    ]]>
+  </string>
+    <string name="f0_isolation_title">Proses Isolasi Biakan Murni: </string>
+  <string name="f0_isolation">
+    <![CDATA[
+    <ol>
+     <li>Bersihkan tempat dan alat isolasi dengan menyemprotkan alkohol 70%%</li>
+     <li>Semprot kedua tangan dengan alkohol lalu menggunakan masker</li>
+     <li>Ambil eksplan dengan pinset lalu sayat bagian batang dan tudung permukaan menggunakan skapel</li>
+     <li>Potong kira-kira 5mm x 5mm dari jaringan bagian dalam jamur</li>
+     <li>Inokulasikan eksplan yang telah dipotong menggunakan pinset pada bagian tengah permukaan media</li>
+     <li>Tutup tabung reaksi berisi PDA dengan kapas/cawan menggunakan plastik siler</li>
+   </ol>
+   ]]>
+ </string>
+
+    <string name="f1_title">Pembuatan Bibit Induk (F1)</string>
+    <string name="f1_tool_title">Alat dan Bahan</string>
+ <string name="f1_tool">
+  <![CDATA[
+  <b>Alat</b><br/>
+  Botol Ukuran 300 ml<br/>
+  Saringan<br/>
+  Panci<br/>
+  Kompor gas<br/>
+  Ousse<br/>
+  Lampu Bunsen<br/>
+  Bak Plastik<br/>
+  Sprayer<br/>
+  Sendok Spatula<br/>
+  Masker<br/>
+  <br/>
+  <b>Bahan: </b><br/>
+  Biji-bijian 1 Kg<br/>
+  Kapur(CaCO3) 1%%<br/>
+  Kapas<br/>
+  Alkohol 70%%<br/>
+  Spirtus<br/>
+  Tissue<br/>
+  ]]>
+</string>
+    <string name="f1_procedure_title">Langkah Kerja: </string>
+
+<string name="f1_procedure">
+  <![CDATA[
+  <ol>
+    <li>Biji-bijian dicuci bersih pada air mengalir</li>
+    <li>Biji-bijian direbus dalam air 2 liter selama 30 – 40 menit setelah air mendidih</li>
+    <li>Tiriskan biji-bijian menggunakan saringan plastic selama 1-2 jam sampai air turun dan kondisi biji-bijian kering</li>
+    <li>Tuangkan biji-bijian kedalam bak plastik dan ditambahkan kapur (CaCO3) sebanyak 1% kemudian aduk sampai merata</li>
+    <li>Masukan biji-bijian kedalam botol yang sudah di sterilkan sebanyak 150 – 200 gr/ botol lalu disumbat kapas</li>
+    <li>Media biji-bijian tersebut kemudian distrelisasi dalam autoclave dengan suhu 1210 selama 30-40 menit</li>
+    <li>Diamkan media biji-bijian selama 6 jam sampai dingin</li>
+    <li>Inokulasikan biji-bijian tersebut menggunakan biakan  murni F0 ( PDA )</li>
+    <li>Simpan media biji-bijian yang telah diinokulasi di ruangan inkubasi selama 25-30 hari hingga misilia penuh merata</li>
+  </ol>
+  ]]>
+</string>
+
+    <string name="f2_title">Pembuatan Bibit Semai (F2)</string>
+    <string name="f2_tool_title">Alat dan Bahan</string>
+<string name="f2_tool">
+  <![CDATA[
+  <b>Alat: </b><br/>
+  Sekop<br/>
+  Ayakan kawat 1 cm<br/>
+  Terpal Plastik<br/>
+  Kompor semawar<br/>
+  Drum<br/>
+  Emrat<br/>
+  Masker<br/>
+  Sprayer<br/>
+  Lampu Bunsen<br/>
+  Sendok Spatula<br/>
+  <br/>
+  <br/>
+  <b>Bahan: </b><br/>
+  Serbuk Kayu 50 Kg<br/>
+  Dedak/Bekatul 15%%<br/>
+  T. Jagung 7%%<br/>
+  Kapur (CaCO3) 1.5%<br/>
+  Kantong Plastik PP ukuran 12 x 25, 08<br/>
+  Kapas<br/>
+  Karet<br/>
+  Alkohol 70%%<br/>
+  Spirtus<br/>
+  Tali Plastik<br/>
+  Tissue<br/>
+
+  ]]>
+</string>
+    <string name="f2_procedure_title">Langkah Kerja: </string>
+
+<string name="f2_procedure">
+  <![CDATA[
+  <ol>
+    <li>Pilih serbuk kayu yang bagus, dan bersih dari kotoran dan minyak</li>
+    <li>Ayak serbuk kayu untuk memisahkan bagian yang halus dan kasar</li>
+    <li>Campurkan serbuk kayu dengan media tambahan seperti dedak, tepung jagung,kapur, dan air  bersih sebanyak 60-70%%</li>
+    <li>Aduk komposisi media tersebut sampai merata dan dirasa cukup</li>
+    <li>Komposkan media dengan ditutup terpal plastik selama 2-3 hari</li>
+    <li>Kantongkan media menggunakan kantong plastik pp 12 x 25 ,08 lalu diikat dengan tali plastik</li>
+    <li>Sterilkan media menggunakan drum dengan suhu 90-100<sup>0</sup> selama  6-8 jam</li>
+    <li>Dinginkan media selama 1x 24 jam (1hari) di dalam ruangan steril</li>
+    <li>Inokulasikan media menggunakan bibit induk (F1)</li>
+    <li>Sumbat dengan kapas yang sudah disterilkan /dipanaskan pada lampu bunsen lalu diikat karet untuk aerasi</li>
+    <li>Inkubasikan media (baglog selama 30 – 40 hari hingga misilia penuh</li>
+  </ol>
+  ]]>
+</string>
+
+    <string name="baglog_title">Pembuatan Baglog</string>
+    <string name="baglog_tool_title">Alat dan Bahan</string>
+<string name="baglog_tool">
+  <![CDATA[
+  <b>Alat: </b>
+  <br/>Sekop
+  <br/>Ayakan Kawat
+  <br/>Terpal Plastik
+  <br/>Kompor Semawar
+  <br/>Drum
+  <br/>Mesin Pompa Air kecil
+  <br/>Masker
+  <br/>Sprayer
+  <br/>Lampu Bunsen
+  <br/>Sendok Spatula
+  <br/>
+
+  <b>Bahan: </b>
+
+ <br/>Serbuk kayu 100Kg
+ <br/>Dedak/Bekatul 15Kg
+ <br/>T. Jagung 5Kg
+ <br/>Kapur (CaCO3) 1.5Kg
+ <br/>Gips (CaSO4) 1.5Kg
+ <br/>Kantong Plastik PP ukuran 18 x 35, 05
+ <br/>Kapas
+ <br/>Karet
+ <br/>Alkohol 70%%
+ <br/>Spirtus
+ <br/>Tissue
+ <br/>Tali Plastik
+
+
+  ]]>
+</string>
+    <string name="baglog_procedure_title">Langkah Kerja: </string>
+<string name="baglog_procedure">
+  <![CDATA[
+  <ol>
+   <li>Pilih serbuk kayu yang bagus, bersih dari kotoran dan minyak</li>
+   <li>Ayak serbuk kayu untuk memisahkan bagian yang halus dan kasar</li>
+   <li>Campurkan serbuk kayu dengan media tambahan seperti dedak, t.jagung, gips,kapur, dan air bersih sebanyak 60-70%%</li>
+   <li>Aduk komposisi media tersebut sampai rata dan dirasa cukup</li>
+   <li>Komposkan media dengan ditutup terpal plastik selama 2-3 hari</li>
+   <li>Kantongkan media menggunakan kantong plastik pp 18 x 35,05 lalu diikat tali plastik</li>
+   <li>Sterilkan media menggunakan drum dengan suhu 90-100oselama 6-8 jam</li>
+   <li>Dinginkan media selama 1x 24 jam (1hari) didalam ruangan steril</li>
+   <li>Inokulasikan media menggunakan bibit semai (F2)</li>
+   <li>Sumbat dengan kapas yang sudah disterilkan /dipanaskan pada lampu Bunsen lalu diikat karet untuk airasi</li>
+   <li>Inkubasikan media (baglog) selama 40 – 50 hari hingga misilia  penuh</li>
+ </ol>
+ ]]>
+</string>
+
+    <string name="baglog_treatment_title">Perawatan Baglog</string>
+    <string name="baglog_treatment_tool_title">Alat dan Bahan</string>
+<string name="baglog_treatment_tool">
+  <![CDATA[
+  <b>Alat: </b>
+  <br/>Termohygrometer
+  <br/>Noussel
+  <br/>Selang
+  <br/>Sapu
+  <br/>
+  ]]>
+</string>
+    <string name="baglog_treatment_procedure_title">Langkah Kerja: </string>
+
+<string name="baglog_treatment_procedure">
+  <![CDATA[
+  <ol>
+    <li>Susun baglog di rak berdasarkan jumlah yang di inginkan</li>
+    <li>Cek suhu dan kelembaban kumbung menggunakan termohygrometer untuk suhu 21- 250  dan kelembaban 80 - 90%%</li>
+    <li>Kupas bagian permukaan depan baglog</li>
+    <li>Lakukan penyiraman 1-2x dalam sehari (tergantung wilayah )</li>
+    <li>Jaga kebersihan kumbung</li>
+  </ol>
+  ]]>
+</string>
+
+    <string name="harvest_title">Panen Jamur</string>
+    <string name="harvest_tool_title">Alat dan Bahan</string>
+<string name="harvest_tool">
+  <![CDATA[
+  <b>Alat: </b>
+  <br/>Keranjang plastik
+  <br/>Kuas
+  <br/>Pisau cutter
+  <br/>Timbangan
+
+  <br/>
+  <b>Bahan: </b>
+  <br/>Keranjang plastik
+  <br/>Kuas
+  <br/>Pisau cutter
+  <br/>Timbangan
+  <br/>
+  ]]>
+</string>
+    <string name="harvest_procedure_title">Langkah Kerja: </string>
+
+<string name="harvest_procedure">
+
+  <![CDATA[
+  <ol>
+    <li>Panen jamur dilakukan pada usia jamur antara 3 – 4 hari setelah pembentukan primordia</li>
+    <li>Panen semua jamur dari tudung sampai bonggol</li>
+    <li>Bersihkan permukaan baglog dari sisa-sisa panen menggunakan cutter</li>
+    <li>Bersihkan jamur dari bonggol serta serbuk gergaji yang terbawa menggunakan pisau dan kuas</li>
+    <li>Jamur siap di kemas dalam kantong plastik</li>
+  </ol>
+  ]]>
+</string>
+</resources>
