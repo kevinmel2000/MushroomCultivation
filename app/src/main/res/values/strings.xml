@@ -227,7 +227,7 @@
   <![CDATA[
   <ol>
     <li>Susun baglog di rak berdasarkan jumlah yang di inginkan</li>
-    <li>Cek suhu dan kelembaban kumbung menggunakan termohygrometer untuk suhu 21- 250  dan kelembaban 80 - 90%%</li>
+    <li>Cek suhu dan kelembaban kumbung menggunakan termohygrometer untuk suhu 21- 25 derajat  dan kelembaban 80 - 90%</li>
     <li>Kupas bagian permukaan depan baglog</li>
     <li>Lakukan penyiraman 1-2x dalam sehari (tergantung wilayah )</li>
     <li>Jaga kebersihan kumbung</li>
@@ -268,4 +268,67 @@
   </ol>
   ]]>
 </string>
+    <string name="jamur_krispi_title">Jamur Krispi BIOTROP</string>
+    <string name="jamur_krispi_tool_title">Alat dan Bahan:</string>
+    <string name="jamur_krispi_tool">
+        <![CDATA[
+          <b>Alat: </b>
+          <br/>Keranjang plastik
+          <br/>Baskom
+          <br/>Kompor
+          <br/>Mesin spinner (jika ada)
+
+          <br/><br/>
+          <b>Bahan: </b>
+          <br/>
+          Minyak goreng<br/>
+          Jamur tiram<br/>
+          Telur 2 butir<br/>
+         Tepung terigu<br/>
+          Tepung beras<br/>
+          Tepung tapioka<br/>
+          Penyedap rasa<br/>
+          Lada bubuk<br/>
+         Garam<br/>
+          Bawang putih<br/>
+        ]]>
+    </string>
+    <string name="jamur_krispi_procedure_title">
+        Cara memasak:
+    </string>
+
+    <string name="jamur_krispi_procedure">
+        <![CDATA[
+<ol>
+    <li>Bersihkan jamur segar</li>
+    <li>Suir suir dan cuci jamur segar</li>
+    <li>Rebus jamur yang telah disuir-suir dalam air mendidih selama 1 - 2 menit</li>
+    <li>Campur jamur dengan 2 butir telur dan bawang putih</li>
+    <li>Sambil menunggu adonan meresap, Kita siapkan adonan tepung. Campur tepung terigu, tepung beras, dan tapioka, tambahkan penyedap, lada bubuk serta garam.</li>
+    <li>Campurkan jamur dengan adonan tepung</li>
+    <li>Ayak jamur sehingga sisa tepung bersih</li>
+    <li>Goreng jamur hingga bewarna coklat keemasan</li>
+    <li>Gunakan mesin spinner untuk mengurangi kadar minyak dari jamur</li>
+    <li>Jamur siap dipacking dan dipasarkan</li>
+  </ol>
+        ]]>
+    </string>
+    <string name="seed_menu_title">Membuat Bibit</string>
+    <string name="baglog_menu_title">Merawat Baglog</string>
+    <string name="mushroom_products_menu">Mengolah Jamur</string>
+    <string name="bussiness_plan_menu">Analisa Usaha</string>
+    <string name="contact_expert_menu">Kontak Kami</string>
+    <string name="shop_menu">Belanja</string>
+    <string name="bussiness_jmlah_baglog">Jumlah Baglog:</string>
+    <string name="shop_description">"SEAMEO BIOTROP menyediakan kebutuhan bahan, servis, dan konsultasi untuk
+        institusi dan komunitas.\nUntuk melakukan pembelian silahkan kontak Laboratorium Servis di email: services.lab@biotrop.org"</string>
+    <string name="shop_title">Produk Jamur SEAMEO BIOTROP</string>
+    <string name="shop_baglog_title">Baglog jamur tiram siap panen</string>
+    <string name="shop_baglog_desc">Rp. 2200/baglog</string>
+    <string name="shop_f1_title">Bibit Jamur Tiram F1</string>
+    <string name="shop_f1_desc">Rp. 50.000/Botol</string>
+    <string name="shop_f2_title">Bibit Jamur Tiram F2</string>
+    <string name="shop_f2_desc">Rp. 5000/Buah, dapat digunakan untuk 20 sd 25 baglog</string>
+    <string name="contact_title">Hubungi Kami</string>
+    <string name="contact_desc">"SEAMEO BIOTROP\n(+6251)8323848 - gau@biotrop.org\nJl. Raya Tajur, Km. 6, Jawa Barat 16134"</string>
 </resources>

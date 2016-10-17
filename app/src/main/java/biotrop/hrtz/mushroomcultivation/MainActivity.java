@@ -4,17 +4,17 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AlertDialog;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.support.design.widget.NavigationView;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -28,20 +28,21 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getLayoutInflater().setFactory(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -53,14 +54,12 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         // Begin the transaction
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-// Replace the contents of the container with the new fragment
-        ft.replace(R.id.fragment_placeholder, new FragmentF0());
-// or ft.add(R.id.your_placeholder, new FooFragment());
-// Complete the changes added above
+        // Replace the contents of the container with the new fragment
+        ft.replace(R.id.fragment_placeholder, new FragmentSeedLayout());
+        // or ft.add(R.id.your_placeholder, new FooFragment());
+        // Complete the changes added above
         ft.commit();
-
     }
-
 
     @Override
     public void onBackPressed() {
@@ -102,18 +101,16 @@ public class MainActivity extends AppCompatActivity
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
         ft.setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
-        if (id == R.id.nav_f0) {
-            ft.replace(R.id.fragment_placeholder, new FragmentF0());
-        } else if (id == R.id.nav_f1) {
-            ft.replace(R.id.fragment_placeholder, new FragmentF1());
-        } else if (id == R.id.nav_f2) {
-            ft.replace(R.id.fragment_placeholder, new FragmentF2());
-        } else if (id == R.id.nav_baglog) {
-            ft.replace(R.id.fragment_placeholder, new FragmentBaglog());
-        } else if (id == R.id.nav_baglog_treatment) {
-            ft.replace(R.id.fragment_placeholder, new FragmentBaglogTreatment());
-        } else if (id == R.id.nav_harvest) {
-            ft.replace(R.id.fragment_placeholder, new FragmentHarvest());
+        if (id == R.id.nav_seeds) {
+            ft.replace(R.id.fragment_placeholder, new FragmentSeedLayout());
+        } else if (id == R.id.nav_baglogs) {
+            ft.replace(R.id.fragment_placeholder, new FragmentBaglogLayout());
+        } else if (id == R.id.nav_products) {
+            ft.replace(R.id.fragment_placeholder, new FragmentKrispi());
+        } else if (id == R.id.nav_shop){
+            ft.replace(R.id.fragment_placeholder, new FragmentShop());
+        } else if(id == R.id.nav_expert){
+            ft.replace(R.id.fragment_placeholder, new FragmentContact());
         }
 
         ft.commit();
@@ -122,29 +119,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void cvClicked(View v) {
-        Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.fragment_placeholder);
-        if (fragment != null && fragment.isVisible()) {
-            if (fragment instanceof FragmentF0) {
-                ((FragmentF0) fragment).cvClicked(v);
-            }
-            if (fragment instanceof FragmentF1) {
-                ((FragmentF1) fragment).cvClicked(v);
-            }
-            if (fragment instanceof FragmentF2) {
-                ((FragmentF2) fragment).cvClicked(v);
-            }
-            if (fragment instanceof FragmentBaglog) {
-                ((FragmentBaglog) fragment).cvClicked(v);
-            }
-            if (fragment instanceof FragmentBaglogTreatment) {
-                ((FragmentBaglogTreatment) fragment).cvClicked(v);
-            }
-            if (fragment instanceof FragmentHarvest) {
-                ((FragmentHarvest) fragment).cvClicked(v);
-            }
-        }
-    }
 
     public void galleryClicked(View v) {
         //TODO gallery optimalization

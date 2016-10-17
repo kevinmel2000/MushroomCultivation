@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="biotrop.hrtz.mushroomcultivation.MainActivity"
+    >
+
+    <TextView
+        style="@style/ChapterHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jamur_krispi_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
+
+                <ImageView
+                    android:id="@+id/krispi_iv_youtubevid"
+                    style="@style/HeadingImage1"
+                    android:src="@drawable/ic_tv_black_18dp" />
+
+                <TextView
+                    style="@style/Heading1"
+                    android:layout_toRightOf="@id/krispi_iv_youtubevid"
+                    android:text="Video player" />
+
+                <WebView
+                    android:id="@+id/youtube_fragment_krispi"
+                    android:layout_below="@id/krispi_iv_youtubevid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorRowFirst"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
+
+                <ImageView
+                    android:id="@+id/krispi_iv_alatbahan"
+                    style="@style/HeadingImage1"
+                    android:src="@drawable/ic_build_black_18dp" />
+
+                <TextView
+                    style="@style/Heading1"
+                    android:layout_toRightOf="@id/krispi_iv_alatbahan"
+                    android:text="@string/f0_tv_tool_title" />
+
+                <TextView
+                    android:id="@+id/krispi_tv_alatbahan"
+                    android:layout_below="@+id/krispi_iv_alatbahan"
+                    style="@style/TextContent1"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/krispi_iv_procedure"
+                    style="@style/HeadingImage2"
+                    android:src="@drawable/ic_toc_black_18dp" />
+
+                <TextView
+                    style="@style/Heading2"
+                    android:layout_toRightOf="@id/krispi_iv_procedure"
+                    android:text="@string/f0_procedure_title" />
+
+                <TextView
+                    android:id="@+id/krispi_tv_procedure"
+                    style="@style/TextContent2"
+                    android:layout_below="@+id/krispi_iv_procedure" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:background="@color/colorRowSecond"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/krispi_tv_procedure">
+
+                    <LinearLayout
+                        android:id="@+id/mygallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            style="@style/GalleryItem"
+                            android:src="@drawable/krispi_1" />
+                        <ImageView
+                            style="@style/GalleryItem"
+                            android:src="@drawable/krispi_2" />
+                        <ImageView
+                            style="@style/GalleryItem"
+                            android:src="@drawable/krispi_3" />
+                        <ImageView
+                            style="@style/GalleryItem"
+                            android:src="@drawable/krispi_4" />
+                        <ImageView
+                            style="@style/GalleryItem"
+                            android:src="@drawable/krispi_5" />
+                        <ImageView
+                            style="@style/GalleryItem"
+                            android:src="@drawable/krispi_6" />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

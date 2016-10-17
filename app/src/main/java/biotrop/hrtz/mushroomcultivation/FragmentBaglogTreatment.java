@@ -1,12 +1,19 @@
 package biotrop.hrtz.mushroomcultivation;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Html;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.TextView;
+import android.widget.VideoView;
 
 /**
  * Created by Webmaster on 9/13/2016.
@@ -37,9 +44,11 @@ public class FragmentBaglogTreatment extends Fragment {
         String langkah = getResources().getString(R.string.baglog_treatment_procedure);
         tvCara.setText(Html.fromHtml(langkah, null, new MyTagHandler()));
 
+//                "<iframe style='display: block; max-width:100%;' src=\"https://www.youtube.com/embed/Ml8oFMlhMvU\"" +
+//                " frameborder=\"0\" allowfullscreen></iframe></html>";
+//        Log.d("width", frameVideo);
+//        displayVideo.setWebViewClient(new WebViewClient(){
+
     }
 
-    public void cvClicked(View v){
-      
-    }
 }

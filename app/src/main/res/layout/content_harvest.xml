@@ -24,8 +24,29 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
 
+                <ImageView
+                    android:id="@+id/harvest_iv_youtubevid"
+                    style="@style/HeadingImage1"
+                    android:src="@drawable/ic_build_black_18dp" />
 
+                <TextView
+                    style="@style/Heading1"
+                    android:layout_toRightOf="@id/harvest_iv_youtubevid"
+                    android:text="Video player" />
+
+                <WebView
+                    android:id="@+id/youtube_fragment_harvest"
+                    android:layout_below="@id/harvest_iv_youtubevid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorRowFirst"/>
+
+            </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -82,22 +103,13 @@
                             >
                             <ImageView
                                 style="@style/GalleryItem"
-                                android:src="@drawable/baglog_1" />
+                                android:src="@drawable/harvest_1" />
                             <ImageView
                                 style="@style/GalleryItem"
-                                android:src="@drawable/baglog_2" />
+                                android:src="@drawable/harvest_2" />
                             <ImageView
                                 style="@style/GalleryItem"
-                                android:src="@drawable/baglog_3" />
-                            <ImageView
-                                style="@style/GalleryItem"
-                                android:src="@drawable/baglog_4" />
-                            <ImageView
-                                style="@style/GalleryItem"
-                                android:src="@drawable/baglog_5" />
-                            <ImageView
-                                style="@style/GalleryItem"
-                                android:src="@drawable/baglog_6" />
+                                android:src="@drawable/harvest_3" />
 
                         </LinearLayout>
 

@@ -17,7 +17,7 @@ import android.widget.TextView;
 /**
  * Created by Webmaster on 9/13/2016.
  */
-public class FragmentHarvest extends Fragment{
+public class FragmentKrispi extends Fragment{
     private TextView tvAlat, tvCara;
     private WebView displayVideo;
 
@@ -26,7 +26,7 @@ public class FragmentHarvest extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         // Defines the xml file for the fragment
-      return inflater.inflate(R.layout.content_harvest, parent, false);
+      return inflater.inflate(R.layout.content_krispi, parent, false);
     }
 
     // This event is triggered soon after onCreateView().
@@ -34,24 +34,18 @@ public class FragmentHarvest extends Fragment{
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
         // Setup any handles to view objects here
 
-        tvAlat = (TextView)view.findViewById(R.id.harvest_tv_alatbahan);
-        tvCara = (TextView)view.findViewById(R.id.harvest_tv_procedure);
-
-        String alat = getResources().getString(R.string.harvest_tool);
-        tvAlat.setText(Html.fromHtml(alat, null, new MyTagHandler()));
-        String langkah = getResources().getString(R.string.harvest_procedure);
-        tvCara.setText(Html.fromHtml(langkah, null, new MyTagHandler()));
-
-        DisplayMetrics metrics = new DisplayMetrics();
-        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
-        displayVideo = (WebView)view.findViewById(R.id.youtube_fragment_harvest);
+        tvAlat = (TextView)view.findViewById(R.id.krispi_tv_alatbahan);
+        tvCara = (TextView)view.findViewById(R.id.krispi_tv_procedure);
+        displayVideo = (WebView)view.findViewById(R.id.youtube_fragment_krispi);
         String frameVideo = "<html>" +
-                "<iframe style='display: block; max-width:100%;' src=\"https://www.youtube.com/embed/W0UsDBBE1kI\"" +
+                "<iframe style='display: block; max-width:100%;' src=\"https://www.youtube.com/embed/VZkhlVY8e7Q\"" +
                 " frameborder=\"0\" allowfullscreen></iframe></html>";
-        Log.d("width", frameVideo);
+
         displayVideo.setWebViewClient(new WebViewClient(){
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -62,6 +56,10 @@ public class FragmentHarvest extends Fragment{
         webSettings.setJavaScriptEnabled(true);
 
         displayVideo.loadData(frameVideo, "text/html", "utf-8");
+        String alat = getResources().getString(R.string.jamur_krispi_tool);
+        tvAlat.setText(Html.fromHtml(alat, null, new MyTagHandler()));
+        String langkah = getResources().getString(R.string.jamur_krispi_procedure);
+        tvCara.setText(Html.fromHtml(langkah, null, new MyTagHandler()));
     }
 
     public void cvClicked(View v){

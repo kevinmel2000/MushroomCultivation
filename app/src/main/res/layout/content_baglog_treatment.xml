@@ -24,6 +24,29 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
+
+                <ImageView
+                    android:id="@+id/baglog_treatment_iv_video"
+                    style="@style/HeadingImage1"
+                    android:src="@drawable/ic_tv_black_18dp" />
+
+                <TextView
+                    style="@style/Heading1"
+                    android:layout_toRightOf="@id/baglog_treatment_iv_video"
+                    android:text="Video player" />
+
+                <VideoView
+                    android:id="@+id/youtube_fragment_baglog_treatment"
+                    android:layout_below="@id/baglog_treatment_iv_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@color/colorRowFirst"/>
+            </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -79,14 +102,16 @@
                             >
                             <ImageView
                                 style="@style/GalleryItem"
-                                android:src="@drawable/baglog_1" />
+                                android:src="@drawable/baglogtreat_1" />
                             <ImageView
                                 style="@style/GalleryItem"
-                                android:src="@drawable/baglog_2" />
+                                android:src="@drawable/baglogtreat_2" />
                             <ImageView
                                 style="@style/GalleryItem"
-                                android:src="@drawable/baglog_3" />
-
+                                android:src="@drawable/baglogtreat_3" />
+                            <ImageView
+                                style="@style/GalleryItem"
+                                android:src="@drawable/baglogtreat_4" />
                         </LinearLayout>
 
                     </HorizontalScrollView>

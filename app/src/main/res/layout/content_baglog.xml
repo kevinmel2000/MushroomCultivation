@@ -25,7 +25,29 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
 
+                <ImageView
+                    android:id="@+id/baglog_iv_video"
+                    style="@style/HeadingImage1"
+                    android:src="@drawable/ic_tv_black_18dp" />
+
+                <TextView
+                    style="@style/Heading1"
+                    android:layout_toRightOf="@id/baglog_iv_video"
+                    android:text="Video player" />
+
+                <fragment
+                    android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+                    android:id="@+id/youtube_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/baglog_iv_video"/>
+
+            </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
